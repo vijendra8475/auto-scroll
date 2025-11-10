@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Reels (robust)",
+  "version": "1.5",
+  "description": "Detect active Instagram reel and auto-scroll to next when it's nearly finished.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://www.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["*://www.instagram.com/*"]
+}
