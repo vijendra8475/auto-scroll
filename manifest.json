@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Auto Reels (robust)",
-  "version": "1.5",
-  "description": "Detect active Instagram reel and auto-scroll to next when it's nearly finished.",
-  "permissions": [],
+  "version": "1.6",
+  "description": "Detect active Instagram reel and auto-scroll to next when it's nearly finished, now with ON/OFF toggle.",
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["*://www.instagram.com/*"],
